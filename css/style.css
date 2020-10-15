@@ -1,0 +1,692 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+.wrapper {
+    background: #223047;
+    width: 100%;
+    height: 550px;
+}
+.mask_12_colmn {
+    background-image: url(../css/images/background-body.png);
+    background-size: cover;
+    height: 5545px;
+   margin: 0px 14%;
+    z-index: -1;
+
+}
+
+.menubar {
+
+    display: inline-flex;
+}
+.border hr {
+
+    margin-left: -198px;
+    margin-right: -200px;
+    border-bottom: none;
+    border-top: 1px solid #d3d3d34d;
+}
+.logo {
+    margin-left: 10px;
+}
+.logo img {
+    padding: 18px 0px;
+}
+.menu {
+   // background: wheat;
+   margin-left:291px;
+    margin-top: 27px;
+}
+.menu ul li {
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+}
+.menu ul li a {
+  
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover {
+    background: #00fff1e6;
+    border-radius: 10px;
+    padding: 12px 13px;
+    transition: 0.5s;
+}
+.get-apps {
+    margin-top: 12px;
+    margin-left: 210px;
+}
+
+.get-apps button {
+    padding: 10px;
+    background: #00fff1;
+    outline: none;
+    border: none;
+    border-radius: 10px
+}
+.get-apps button:hover {
+    transition: 0.5s;
+    font-size: 12px;
+}
+
+.get-apps a i {
+    padding: 10px 23px;
+    font-size: 20px;
+    color: white;
+}
+/* start banner txt part*/
+.banner-txt {
+    display: inline-flex;
+}
+.banner-txt-left {
+    width: 550px;
+    padding: 123px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.banner-txt-left h2 {
+    color: white;
+    font-weight: 100;
+}
+.banner-txt-left p {
+    padding-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+.banner-txt-left button {
+    margin-top: 45px;
+    padding: 10px;
+    border-radius: 11px;
+}
+.banner-txt-left button.btn-1 {
+    background: #00fff1;
+    border: none;
+    color: black;
+}
+.banner-txt-left button.btn-2{
+    background:transparent;
+    border: 1px solid white;
+    color: white;
+}
+.banner-txt-left button.btn-1:hover{
+    background: transparent;
+    border:1px solid white;
+    color: white;
+    transition: 0.5s;
+}
+.banner-txt-left button.btn-2:hover{
+    background: #00fff1;
+    border:none;
+    color: black;
+    transition: 0.5s;
+}
+.mobile-photo {
+    background: #00fff159;
+    margin-left: 153px;
+    width: 185px;
+    height: 379px;
+    border-radius: 30px;
+    margin-top: 165px;
+}
+.mobile-photo img {
+    width: 100%;
+    height: 100%;
+    /* background: transparent; */
+   // background: #00dcff63;
+    border-radius: 30px;
+}
+
+/*end banner txt part*/
+
+/*start services part*/
+.services h2 {
+    text-align: center;
+    padding-top: 170px;
+    color: #000000bf;
+    font-weight: 500;
+    font-size: 25px;
+}
+.separator hr {
+    width: 80px;
+    text-align: center;
+    /* color: #00fff1; */
+    /* font-size: 109px; */
+    height: 10px;
+    border-top: 5px solid #00fff1;
+    border-bottom: none;
+    border-left: none;
+}
+.separator {
+    margin-left: 713px;
+    padding-top: 30px;
+}
+.card-part {
+    display: inline-flex;
+    margin: 0px 223px;
+    margin-right: 252px;
+    margin-top: 70px;
+}
+.card {
+    margin-left: 35px;
+    box-shadow: 0px 1px 1px lightgrey, 0px -1px 5px lightgrey;
+}
+.card:hover {
+    opacity: 6;
+    background-color: #00ffffa1;
+    color: white !important;
+}
+.card img {
+    margin-bottom: -137px;
+    margin-left: 56px;
+}
+.card h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.card p {
+    color: #000000ad;
+    text-align: justify;
+    padding: 0px 20px;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+/*end services part*/
+
+/*start get more shape part*/
+.get-more-shape {
+    width: 100%;
+    height: 335px;
+    margin-top: 65px;
+    display: inline-flex;
+}
+.shape-left {
+    width: 1650px;
+    background-color: #323a4df7;
+    height: 100%;
+    z-index: -1;
+}
+.wrapper-2 {
+    background: #f5f6fa8f;
+}
+.shape-right {
+    margin-right: 240px;
+    margin-top: 93px;
+    margin-left: 159px;
+}
+.shape-right h2 {
+    font-size: 21px;
+    font-weight: 500;
+}
+.shape-right p {
+    text-align: justify;
+    padding-top: 17px;
+    color: #00000078;
+}
+/*end get more shape part*/
+
+
+
+/*start show part */
+.stable-mobile-wrapper {
+    margin-top: 50px;
+
+    margin-left: 198px;
+    margin-right: 205px;
+}
+.upper {
+    display: inline-flex;
+}
+.upper-left h2 {
+    text-align: right;
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.upper-left p {
+    text-align: right;
+    margin: 40px 100px 40px 20px;
+    color: #000000b3;
+}
+.upper-right img {
+    height: 300px;
+}
+.upper-left button {
+    margin: 20px 0px 0px 383px;
+    padding: 14px;
+    outline: none;
+    border: none;
+    background: #00fff1;
+    border-radius: 13px;
+}
+
+.upper-left button:hover {
+    background: transparent;
+    border: 1px solid black;
+}
+.bottom {
+    display: inline-flex;
+    margin-top: 30px;
+}
+.bottom-left {
+    width: 440px;
+    height: 425px;
+    margin-left: 50px;
+}
+.bottom-left img {
+    width: 100%;
+    height: 100%;
+}
+.bottom-right {
+    margin-left: 100px;
+}
+.bottom-right .row h1 {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px;
+    box-shadow: 1px 1px 6px grey;
+    margin-top: 10px;
+}
+.bottom-right .row2 {
+    background: #00fff175;
+    margin-top: 9px;
+    padding: 20px;
+    margin-bottom: 6px;
+    box-shadow: 3px 5px 10px grey;
+}
+.bottom-right .row2 h1 {
+    font-size: 20px;
+    padding-bottom: 6px;
+    font-weight: 500;
+}
+.bottom-right i {
+    padding-right: 20px;
+}
+.row2 p {
+    padding-left: 40px;
+    color: #000000a3;
+}
+.row:hover {
+    background-color: #00ffffa1;
+    transition: 0.5s;
+}
+.row2:hover {
+    background: transparent;
+    transition: 0.5s;
+}
+/*end show part */
+
+/*start path part*/
+.path {
+    width: 100%;
+    display: inline-flex;
+    background: #f5f9faad;
+    padding: 80px 0px;
+    height: 450px;
+}
+.path-1{
+    width: 500px;
+    margin-left: 200px;
+}
+.path-1 h1 {
+    text-align: right;
+    font-weight: 500;
+    font-size: 23px;
+    padding-bottom: 25px;
+}
+.path-1 h1 {
+    text-align: right;
+    font-weight: 500;
+    font-size: 23px;
+}
+.path-1 h3 {
+    text-align: right;
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.path-1 i {
+    color: background: #00fff1;
+   
+    background: black;
+    border-radius: 55%;
+    color: #00fff1;
+    margin-right: 20px;
+
+}
+.path-1 h4 {
+    text-align: right;
+    margin-right: 8px;
+    padding-top: 15px;
+    font-weight: 500;
+}
+.path-1 p {
+    text-align: right;
+    padding-top: 43px;
+    font-size: 15px;
+    line-height: 28px;
+    color: #00000096;
+    padding-left: 10px;
+}
+.box1 {
+    background: #ffffff4a;
+    width: 400px;
+    height: 250px;
+    margin-left: 100px;
+    margin-bottom: 13px;
+    margin-top: 119px;
+    box-shadow: 0px 5px 10px grey;
+}
+.box2 {
+    background: #2c32338a;
+    width: 200px;
+    height: 370px;
+    margin-left: 192px;
+    margin-top: -383px;
+}
+/*end path part*/
+
+/*start video-part */
+.wrapper.video-part {
+   z-index: -2 !important;
+    background-color: #323a4ddb;
+  
+  
+    margin-top: 15px;
+}
+.vtext {
+    margin-left: 200px;
+}
+.vtext a i {
+    text-align: center;
+    margin-left: 533px;
+    margin-top: 135px;
+}
+.vtext a {
+    color: #00fff1;
+    font-size: 65px;
+}
+.vtext a i:hover {
+    background: red;
+    /* transition: 0.5s; */
+    border-radius: 50%;
+}
+.vtext h1 {
+    text-align: center;
+    padding-right: 157px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-size: 500;
+    font-weight: 500;
+    color: white;
+    font-family: cursive;
+}
+.vtext p {
+ 
+    width: 942px;
+    text-align: center;
+    padding-top: 45px;
+    margin-left: 100px;
+    line-height: 25px;
+    color: #ffffff;
+    font-size: 17px;
+}
+/*end video-part */
+
+/*Start download part*/
+.download {
+    background: rgb(255 255 255 / 0%);
+    z-index: -1;
+    width: 100%;
+}
+.map {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 180px 0px;
+    background: url(images/map.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.map h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.map h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    color: #000000bd;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.map button {
+    margin-left:470px;
+    margin-top: 50px;
+    padding: 16px 45px;
+    border: none;
+    outline: none;
+    background: #00fff1;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+.map button:hover {
+    font-size: 10px;
+
+    font-weight: 600;
+    background: red;
+    color: white;
+    transition: 0.5s;
+}
+
+/*end download part*/
+/*start text part*/
+.textt-mask {
+    width: 100%;
+    background-color: #323a4dd1;
+    height: 100%;
+}
+.text {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.text p {
+    padding: 150px 160px;
+    text-align: justify;
+    line-height: 25px;
+    color: #00fff1;
+}
+/*end text part*/
+/* start app add part */
+.app-add-part {
+    width: 100%;
+    background: #f5f9fa75;
+    display: inline-flex;
+    padding: 115px 0px;
+}
+.smart-phone {
+    display: inline-flex;
+   margin-left: 270px;
+}
+.left-phone {
+    margin-left: 33px;
+    z-index: 100;
+}
+.left-phone img {
+    height: 300px;
+    background: #29e1d773;
+    border-radius: 21px;
+    box-shadow: 0px 5px 10px cadetblue;
+}
+.right-phone {
+    z-index: -2;
+}
+.right-phone img {
+    height: 210px;
+    margin-top: 47px;
+    margin-left: -6px;
+    background: color:;
+    background:#00fff19e;
+    border-radius: 12px;
+   
+}
+.store-part {
+    width: 664px;
+}
+.store-part h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+.store-part p {
+    text-align: left;
+    padding-left: 235px;
+    padding-top: 48px;
+    line-height: 20px;
+    padding-bottom: 48px;
+}
+.store-image {
+    margin-left: 236px;
+}
+.store-image img:hover {
+    opacity: -1;
+    transition: 0.5;
+}
+.get-app-button {
+    margin-left: 583px;
+    background: #00fff18c;
+    width: 198px;
+    z-index: 73;
+    border-radius: 10px;
+    margin-top: -24px;
+}
+.get-app-button button {
+    border: none;
+    padding: 16px 30px;
+    border-radius: 10px;
+    background: transparent;
+}
+.get-app-button button {
+    border: none;
+    padding: 16px 30px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 5px 5px 10px black;
+    outline: none;
+    background: #00fff1e6;
+}
+.get-app-button button:hover {
+    background: red;
+    color: white;
+    transition: 0.5s;
+}
+/* end app add part */
+
+/*start at a glance part*/
+.at-a-glance {
+    padding: 50px 0px;
+    width: 100%;
+}
+.information {
+    margin: 55px 290px;
+    display: inline-flex;
+}
+.info {
+    margin-left: 4px;
+    padding: 10px 36px;
+}
+.info h1 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 27px;
+}
+.info h3 {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 10px;
+    color: #000000d1;
+}
+.comment {
+    margin-left: 200px;
+}
+.comment h1 {
+    text-align: center;
+    margin-left: -377px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.comment p {
+    text-align: justify;
+    padding: 19px 315px;
+    color:rgba(0, 0, 0, 0.747);
+}
+
+.comment-area {
+    display: inline-flex;
+}
+.write textarea {
+    border: 2px solid gray;
+    margin-left: 178px;
+    background: #ffffffb8;
+}
+.click {
+    margin-top: 5px;
+}
+.click button {
+    margin-left: 30px;
+    padding: 19px 37px;
+    border: none;
+    background: #00fff1e6;
+    outline: nonr;
+    outline: none;
+    border-radius: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.click button:hover {
+    background: red;
+    color: white;
+    transition: 0.5s;
+    font-size: 13px;
+    font-weight: 600;
+}
+.footer {
+    width: 100%;
+    background-color: #040d24ad;
+    z-index: -49;
+    padding: 30px 0px;
+    display: inline-flex;
+}
+.footer h1 {
+    margin-left: 257px;
+    font-size: 18px;
+    color: #00fff18c;
+    font-family: monospace;
+    text-shadow: 1px 1px 2px black;
+}
+.social {
+    margin-left: 430px;
+}
+.social a i {
+    color: white;
+    padding: 0px 13px;
+}
+.social a {
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 2px;
+}
+.social a:hover {
+    background: red;
+    color: white;
+    transition: 0.5s;
+}
+/*end at a glance part*/
